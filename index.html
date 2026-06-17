@@ -27,16 +27,18 @@
   body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: var(--gris-fondo); color: var(--texto); min-height: 100vh; }
 
   header {
-    background: var(--blanco);
+    background: var(--azul);
     padding: 0 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 68px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    border-bottom: 3px solid var(--naranja);
+    height: 60px;
+    box-shadow: 0 2px 8px rgba(27,79,138,0.3);
   }
   .header-logo img { height: 44px; display: block; }
+  .logo-box { width:36px; height:36px; background:var(--naranja); border-radius:6px; display:flex; align-items:center; justify-content:center; font-weight:900; color:white; font-size:14px; }
+  .header-brand { display:flex; align-items:center; gap:0.75rem; }
+  .header-title { color:white; font-size:15px; font-weight:600; }
   .header-right { display: flex; align-items: center; gap: 1rem; }
   .header-subtitulo {
     font-size: 12px;
